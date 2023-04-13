@@ -1,0 +1,29 @@
+.heading{
+    font-size: 40px;
+    width: 100%;
+    margin-top: 0;
+    font-family: 'DynaPuff', cursive;
+}
+
+.note{
+    font-size: 25px;
+    color: pink;
+    font-family: 'Pacifico', cursive;
+}
+
+.copy-right-footer{
+    position: fixed;
+    bottom: 0;
+    background-color: maroon;
+     color: yellow;
+    width: 100%;
+    font-size: 30px;
+    font-family: 'Caveat', cursive;
+}
+
+canvas{
+    border: 10px solid blue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 20px lightblue;
+    background-color: wheat;
+}
