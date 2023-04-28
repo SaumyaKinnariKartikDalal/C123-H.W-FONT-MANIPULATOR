@@ -1,13 +1,14 @@
 .heading{
-    font-size: 40px;
+    font-size: 40px; 
     width: 100%;
     margin-top: 0;
     font-family: 'DynaPuff', cursive;
+    color: coral;
 }
 
 .note{
     font-size: 25px;
-    color: pink;
+    color:cyan;
     font-family: 'Pacifico', cursive;
 }
 
@@ -26,4 +27,27 @@ canvas{
     border-radius: 10px;
     box-shadow: 1px 1px 10px 20px lightblue;
     background-color: wheat;
+    animation-name: example1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example1 {
+    from {box-shadow: 1px 1px 10px 5px purple;}
+    to {box-shadow: 1px 1px 10px 20px pink;}
+}
+
+video{
+    border: 10px solid blue;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 20px lightblue;
+    background-color: wheat;
+    animation-name: example2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example2 {
+    from {box-shadow: 1px 1px 10px 5px red;}
+    to {box-shadow: 1px 1px 10px 20px yellow;}
 }
