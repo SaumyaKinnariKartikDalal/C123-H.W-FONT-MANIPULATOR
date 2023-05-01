@@ -3,7 +3,7 @@
     width: 100%;
     margin-top: 0;
     font-family: 'DynaPuff', cursive;
-    color: coral;
+    color: white;
 }
 
 .note{
@@ -26,15 +26,15 @@ canvas{
     border: 10px solid blue;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 20px lightblue;
-    background-color: wheat;
     animation-name: example1;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
 
 @keyframes example1 {
-    from {box-shadow: 1px 1px 10px 5px purple;}
-    to {box-shadow: 1px 1px 10px 20px pink;}
+    0% {box-shadow: 1px 1px 10px 5px purple;}
+    50% {box-shadow: 1px 1px 10px 20px pink;}
+    100% {box-shadow: 1px 1px 10px 5px purple;}
 }
 
 video{
@@ -43,11 +43,12 @@ video{
     box-shadow: 1px 1px 10px 20px lightblue;
     background-color: wheat;
     animation-name: example2;
-    animation-duration: 4s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
 }
 
 @keyframes example2 {
-    from {box-shadow: 1px 1px 10px 5px red;}
-    to {box-shadow: 1px 1px 10px 20px yellow;}
+   0% {box-shadow: 1px 1px 10px 5px red;}
+    50% {box-shadow: 1px 1px 10px 20px yellow;}
+    100% {box-shadow: 1px 1px 10px 5px red;}
 }
